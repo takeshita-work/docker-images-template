@@ -8,7 +8,7 @@ try {
     $imageTagDate   = "${global:repositoryName}:${global:softwareName}_${global:date}"
 
     # Dockerfile のパスの生成
-    $dockerfilePath = "./docker/${global:softwareName}/Dockerfile"
+    $dockerfilePath = "./dockerfile/${global:softwareName}/Dockerfile"
 
     # 生成値の出力
     echo $imageTagLatest

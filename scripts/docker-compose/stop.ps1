@@ -1,4 +1,4 @@
 docker-compose `
   -p "${global:projectName}" `
-  -f ./tests/compose.yml `
-  up -d
+  -f ./docker-compose/compose.yml `
+  stop

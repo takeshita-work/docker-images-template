@@ -1,4 +1,4 @@
 docker-compose `
   -p "${global:projectName}" `
-  -f ./tests/compose.yml `
+  -f ./docker-compose/compose.yml `
   exec {software}{version} /bin/bash
