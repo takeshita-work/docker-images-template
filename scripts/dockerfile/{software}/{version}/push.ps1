@@ -1,6 +1,6 @@
 try {
     # 設定ファイルの読み込み
-    . $PSScriptRoot/../../../__config.ps1  # repository の設定
+    . $PSScriptRoot/../../__config.ps1  # repository の設定
     . $PSScriptRoot/../__config.ps1        # distribution の設定
     . $PSScriptRoot/__config.ps1           # version の設定
 

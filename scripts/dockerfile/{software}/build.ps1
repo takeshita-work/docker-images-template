@@ -1,6 +1,6 @@
 try {
     # 設定ファイルの読み込み
-    . $PSScriptRoot/../../__config.ps1  # repository setting
+    . $PSScriptRoot/../__config.ps1  # repository setting
     . $PSScriptRoot/__config.ps1        # distribution setting
 
     # タグ の生成
